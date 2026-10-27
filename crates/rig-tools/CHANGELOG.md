@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+## [0.46.0-rc.2](https://github.com/0xPlaygrounds/rig/compare/rig-tools-v0.46.0-rc.1...rig-tools-v0.46.0-rc.2) - 2026-10-27
+
+### Fixed
+
+- *(tools)* [**breaking**] read returns images, long lines can be read on, a clearer timeout hint ([#2913](https://github.com/0xPlaygrounds/rig/pull/2913)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(tui)* [**breaking**] prompt history per project, the shown conversation's prompts first ([#2916](https://github.com/0xPlaygrounds/rig/pull/2916)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+- *(agent)* [**breaking**] a failed message goes back into the input ([#2895](https://github.com/0xPlaygrounds/rig/pull/2895)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+
+### Other
+
+- *(corpus, tools, xtask)* shared policies, typed lookups ([#2898](https://github.com/0xPlaygrounds/rig/pull/2898)) (by [gold-silver-copper](https://github.com/gold-silver-copper))
+
+### Contributors
+
+* [gold-silver-copper](https://github.com/gold-silver-copper)
 ## [0.45.0](https://github.com/0xPlaygrounds/rig/compare/rig-tools-v0.44.0...rig-tools-v0.45.0) - 2026-10-19
 
 ### Added
